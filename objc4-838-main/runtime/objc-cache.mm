@@ -1066,8 +1066,8 @@ void cache_t::init()
     kr = task_restartable_ranges_register(mach_task_self(),
                                           objc_restartableRanges, count);
     if (kr == KERN_SUCCESS) return;
-    _objc_fatal("task_restartable_ranges_register failed (result 0x%x: %s)",
-                kr, mach_error_string(kr));
+//    _objc_fatal("task_restartable_ranges_register failed (result 0x%x: %s)",
+//                kr, mach_error_string(kr));
 #endif // HAVE_TASK_RESTARTABLE_RANGES
 }
 
