@@ -13,6 +13,8 @@
 
 // Taken from llvmCore-3425.0.31.
 
+#include <cstdint>
+
 #ifndef LLVM_SUPPORT_MATHEXTRAS_H
 #define LLVM_SUPPORT_MATHEXTRAS_H
 
